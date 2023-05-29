@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Beginner"
+        tools:targetApi="31">
+        <activity
+            android:name=".SwipableViewsWithViewPager2"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BottomNavigationViewTutorial"
+            android:exported="true" />
+        <activity
+            android:name=".FragmentTutorial"
+            android:exported="true" />
+        <activity
+            android:name=".RecyclerViewTutorial"
+            android:exported="true"/>
+
+        <activity
+            android:name=".SpinnerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AlertDialog"
+            android:exported="true" />
+        <activity
+            android:name=".ToolBarMenus"
+            android:exported="true" />
+        <activity
+            android:name=".ImplicitIntents"
+            android:exported="true" />
+        <activity
+            android:name=".Permissions"
+            android:exported="true" />
+        <activity
+            android:name=".FourthActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PassingDataBetweenActivities"
+            android:exported="true" />
+        <activity
+            android:name=".ThirdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SecondActivity"
+            android:exported="true" />
+        <activity
+            android:name=".IntentsAndStartingNewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ToastsAndContext"
+            android:exported="true" />
+        <activity
+            android:name=".CheckBoxRadioButtonTutorial"
+            android:exported="true" />
+        <activity
+            android:name=".ImageViewsTutorial"
+            android:exported="true" />
+        <activity
+            android:name=".EditTextTutorial"
+            android:exported="true" />
+        <activity
+            android:name=".TextViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".constraintLayoutTutorial"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
